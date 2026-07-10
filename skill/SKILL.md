@@ -1,3 +1,4 @@
+---
 name: brand-strategy
 description: |
   品牌战略咨询Skill。当用户需要品牌诊断、定位、差异化策略、执行方案时使用。
