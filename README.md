@@ -11,14 +11,11 @@
 
 <br>
 
-<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/install.sh">
+<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/skill/install.sh">
   <img src="https://img.shields.io/badge/⚡_一键安装_Skill-blue?style=for-the-badge&logo=claude&logoColor=white" alt="一键安装">
 </a>
 <a href="https://github.com/liuyang00100010-star/mini-jack-repo/blob/main/skill/SKILL.md">
   <img src="https://img.shields.io/badge/📖_查看_Skill_文件-green?style=for-the-badge" alt="查看Skill文件">
-</a>
-<a href="https://github.com/liuyang00100010-star/mini-jack-repo/blob/main/docs/brand-analysis-guide.md">
-  <img src="https://img.shields.io/badge/📊_方法论文档-orange?style=for-the-badge" alt="方法论文档">
 </a>
 
 ---
@@ -55,11 +52,11 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\brand
 
 ### 方式三：一键脚本
 
-<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/install.sh">
+<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/skill/install.sh">
   <img src="https://img.shields.io/badge/🍎_macOS/Linux_一键安装-点击下载-blue?style=for-the-badge" alt="macOS/Linux 一键安装">
 </a>
 
-<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/install.ps1">
+<a href="https://raw.githubusercontent.com/liuyang00100010-star/mini-jack-repo/main/skill/install.ps1">
   <img src="https://img.shields.io/badge/🪟_Windows_一键安装-点击下载-green?style=for-the-badge" alt="Windows 一键安装">
 </a>
 
@@ -255,7 +252,6 @@ Skill 会自动完成：信息搜索 → 框架分析 → HTML报告生成。
 
 ## 📖 方法论文档
 
-- [品牌分析方法论]— 24个框架详解 + 7步分析流程
 - [Skill完整定义](skill/SKILL.md) — AI可执行的完整指令集（1042行）
 
 ## 🔧 环境要求
@@ -268,10 +264,10 @@ Skill 会自动完成：信息搜索 → 框架分析 → HTML报告生成。
 
 ```
 ├── skill/
-│   └── SKILL.md                     # ← 核心Skill文件（安装这个）
-├── brand-analysis-guide.md      # 方法论文档
-├── CLAUDE.md                        # 项目配置
-├── README.md                        # 本文件
+│   ├── SKILL.md                     # ← 核心Skill文件（安装这个）
+│   ├── install.sh                   # macOS/Linux 一键安装脚本
+│   └── install.ps1                  # Windows 一键安装脚本
+└── README.md                        # 本文件
 ```
 
 ## 🧠 设计理念
