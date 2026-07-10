@@ -1,4 +1,4 @@
-# 小柳总品牌商业咨询skill
+# 小柳总品牌商业咨询skill v1.8
 
 品牌战略咨询报告库。使用 brand-strategy skill 对目标品牌进行全链路分析，输出 HTML 格式报告。
 
